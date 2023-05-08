@@ -70,14 +70,14 @@ class _VolumeUpState extends State<VolumeUp> {
               onPressed: (){
                 volumeUp();
             }, 
-            icon: const Icon(Icons.volume_up)),
+            icon: const Icon(Icons.volume_up, color: Colors.green,)),
             IconButton(
               iconSize: 50,
               onPressed: (){
                 setState(() {
                   volumeDown();
                 });
-            }, icon: const Icon(Icons.volume_down))
+            }, icon: const Icon(Icons.volume_down, color: Colors.red,))
             
           ],
         ),
